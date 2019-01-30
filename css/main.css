@@ -15,101 +15,103 @@
 }
 
 body{
-	font-family: 'Playfair Display', Source Sans Pro, sans-serif;
+	font-family: "Playfair Display", Source Sans Pro, sans-serif;
 	font-size: 16px;
 	color: #333;
 }
 
-#content1
-{
-	display: flex;
-	flex-direction: row;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
 .header1{
-	font-family: 'Playfair Display', sans-serif;
+	font-family: "Playfair Display", sans-serif;
 	font-size: 48px;
 	margin-bottom: 20px;
 	letter-spacing: -1px;
 	margin-right: 20px;
 	line-height: 50px;
 	color: #8caff5;
+	font-weight: bold;
 }
+
+#content1 img
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	width: 960px;
+	height: 400px;
+}
+
 
 #text1{
 	line-height: 24px;
 	margin-bottom: 20px;
 }
 
-#text1:first-line{
-	font-weight: bold;
-}
-
-#text1:first-letter{
-	color: #000;
-	font-size: 16px;
-}
 
 
-#content2
+#content2 img
 {
 	display: flex;
 	flex-direction: row;
-	margin-top: 20px;
+	/*margin-top: 40px;*/
+	margin-bottom: 20px;
+	width: 300px;
+	height: 250px;
 }
+
 
 #text2{
 	line-height: 24px;
 	margin-bottom: 20px;
-	margin-left: 10px;
-	margin-right: 10px;
 }
 
-#text2:first-line{
-	font-weight: bold;
-}
 
-#content3
+#content3 img
 {
-	display: flex;
+	display: inline-flex;
 	flex-direction: row;
-	justify-content: space-between; 
-	margin-top: 20px;
+	margin-top: 10px;
+	width: 300px;
+	height: 250px;
+	margin-right: 10px;
+	margin-bottom: 40px;
 }
+
+
 
 #text3{
 	line-height: 24px;
-	margin-bottom: 20px;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 40px;
 }
 
-.images
-{
-	margin-right: 10px;
+
+.different{
+	font-weight: bold;
 }
 
-#content4
-{
-	display: flex;
+#content4 img{
+	display: inline-flex;
 	flex-direction: row;
-	margin-top: 20px;
+	width: 300px;
+	height: 250px;
+	margin-bottom: 20px;
+	margin-right: 170px;
 }
+
 
 .header4{
-	font-family: 'Playfair Display' sans-serif;
+	font-family: "Playfair Display", sans-serif;
 	font-size: 40px;
-	margin-bottom: 20px;
+	font-weight: bold;
 	letter-spacing: -1px;
 	margin-right: 20px;
 	color: #8caff5;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 #text4{
 	line-height: 24px;
-	margin-bottom: 20px;
-	margin-left: 10px;
-	margin-right: 10px;
 }
+
